@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Por você</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bem vindo(a)</h1>
+        <div class="wrapper">
+            <hr class="linha-destacada">
+            <form id="loginForm" method="post" autocomplete="off">
+                <div class="input-box">
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <i class='bx bx-street-view'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Digite sua senha" id="senha2" required>
+                    <i class="bi bi-eye-fill" id="btn-senha2" onclick="mostrarSenha('senha2', 'btn-senha2')"></i>
+                </div>
+                <button class="button" type="submit">Login</button>
+                <div class="jatemconta">
+                    <p>Não tem uma conta?</p>
+                    <a href="/cadastroporvocê/cadastro.html">Clique aqui</a>
+                </div>
+            </form>
+            <p id="errorMessage" style="display: none;"></p>
+            <div class="remember-forgot">
+            </div>
+        </div>
+        <script src="login.js"></script>
+</body>
+
+</html>

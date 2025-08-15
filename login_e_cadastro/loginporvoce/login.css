@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url(/img/fundo.jpg);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 40px;
+    margin-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1100px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    color: #7a7878;
+    font-size: 45px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.input-box input {
+    width: 500px;
+    padding: 12px 45px 12px 20px;
+    border: 2px solid #a8a8a8;
+    border-radius: 50px;
+    outline: none;
+    font-size: 30px;
+    color: #7a7878;
+    background: #fff;
+    height: 90px;
+}
+
+.input-box input:focus {
+    border-color: #a8a8a8;
+}
+
+.input-box input::placeholder {
+    color: #7a7878;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    margin-left: 15px;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #7a7878;
+    font-weight: bold;
+}
+
+.button {
+    width: 70%;
+    padding: 12px;
+    margin-left: 70px;
+    margin-top: 30PX;
+    background: #e51b61;
+    border-radius: 40px;
+    color: #fff;
+    border: #e51b61;
+    border-bottom: 8px solid #8b113c;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.jatemconta {
+    display: flex;
+    font-size: 19px;
+    margin-left: 98px;
+    margin-top: 10px;
+}
+
+a {
+    color: #e51b61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linha-destacada {
+    border-top: 3px solid #c0b7b7;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+}
